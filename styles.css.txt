@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+nav {
+    background-color: #333;
+    padding: 1rem;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li {
+    margin-right: 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: #ddd;
+}
+#home {
+    text-align: center;
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+#home h1 {
+    color: #333;
+}
+#home button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#home button:hover {
+    background-color: #0056b3;
+}
+#about {
+    padding: 50px;
+    text-align: center;
+}
+#about h2 {
+    color: #333;
+}
